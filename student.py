@@ -32,3 +32,8 @@ def get_courses(student):
     return f"{name} does {math}, {science}, and {history}"
 
 print(get_courses(another))
+
+def check_is_student(student):
+    return student.get("is_student", False)
+
+print(check_is_student(another))
